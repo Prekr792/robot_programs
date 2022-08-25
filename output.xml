@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on darwin)" generated="20220825 12:29:39.943" rpa="false" schemaversion="3">
+<suite id="s1" name="Read Python" source="/Users/PR20374925/Desktop/Robot framework programs/robot_programs/read_python.robot">
+<test id="s1-t1" name="test1" line="5">
+<for flavor="IN">
+<var>${i}</var>
+<value>@{l1}</value>
+<iter>
+<var name="${i}">monitor</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220825 12:29:39.953" endtime="20220825 12:29:39.953"/>
+</kw>
+<status status="PASS" starttime="20220825 12:29:39.953" endtime="20220825 12:29:39.953"/>
+</iter>
+<iter>
+<var name="${i}">keyboard</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220825 12:29:39.953" endtime="20220825 12:29:39.953"/>
+</kw>
+<status status="PASS" starttime="20220825 12:29:39.953" endtime="20220825 12:29:39.953"/>
+</iter>
+<iter>
+<var name="${i}">mouse</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220825 12:29:39.954" endtime="20220825 12:29:39.954"/>
+</kw>
+<status status="PASS" starttime="20220825 12:29:39.954" endtime="20220825 12:29:39.954"/>
+</iter>
+<status status="PASS" starttime="20220825 12:29:39.953" endtime="20220825 12:29:39.954"/>
+</for>
+<status status="PASS" starttime="20220825 12:29:39.953" endtime="20220825 12:29:39.954"/>
+</test>
+<status status="PASS" starttime="20220825 12:29:39.944" endtime="20220825 12:29:39.954"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Read Python">Read Python</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
